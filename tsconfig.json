@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./build",
+    "lib": ["DOM"],
+    "strict": true,
+    "allowJs": true
+  },
+  "include": ["src", "test"],
+  "exclude": ["node_modules", "**/tests/*", "**/*.spec.ts"]
+}
